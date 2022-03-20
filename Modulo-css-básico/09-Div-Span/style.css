@@ -1,0 +1,15 @@
+.product {
+    background-color: aqua;
+}
+
+.product span {
+    font-size: 24px;
+    color: crimson;
+}
+
+.highlight {
+    font-weight: bold;
+    background-color: yellow;
+    color: aliceblue;
+    font-size: 40px;
+}

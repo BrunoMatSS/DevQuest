@@ -1,0 +1,24 @@
+
+.tabela-moda th{
+    color: white;
+    background-color: #BB86FC; 
+    padding: 8px;  
+}
+
+.tabela-moda td{
+    color: white;
+    background-color: #424250;
+    padding: 8px;
+}
+
+.tabela-casa th{
+    background-color: #00C4B4;
+    color: white;
+    padding: 8px;
+}
+
+.tabela-casa td{
+    color: white;
+    background-color:#424250 ;
+    padding: 8px;
+}

@@ -1,0 +1,42 @@
+@media (max-width: 755px){
+    .cabecalho {
+        padding: 0;
+        padding-top: 50px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cabecalho .logo  h1{
+        font-size: 40px;
+    }
+
+    .cabecalho nav ul {  
+        
+        margin-top: 50px;    
+        flex-direction: column;
+    }
+
+    .cabecalho nav ul li {
+        font-size: 40px;
+        margin-top: 50px;
+        padding-right: 0;
+    }
+
+    .cabecalho .sobre{
+        margin-right: 0;
+    }
+
+    .cabecalho .sobre .sob{
+        padding: 17px 40px;
+    }
+
+    .cabecalho .cadastre-se {   
+        font-size: 18px;
+        padding: 15px 22px;
+    }
+
+    .cabecalho .cadastre-se .cad{
+        padding: 0;
+    }
+    
+}

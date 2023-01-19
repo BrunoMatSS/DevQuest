@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest 4 - Formulário</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+    <div class="container">
+        <div class="intro">
+            <h2>FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h2>
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </div>
+        
+        <form class="form" method="GET" action="index.html">
+       
+            <input class="inputText" type="text" name="nome" id="nome" placeholder="Nome completo *" required>
+                
+            <span class="required">campo obrigatório</span>
+
+            <input class="inputText" type="text" name="email" id="email" placeholder="Email * exemple@email.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"> 
+                
+            <span class="required">campo obrigatório</span>
+                
+            <input class="inputText" type="tel" name="telefone" id="telefone" placeholder="Telefone * (99) 99999-9999" required pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$">
+
+            <span class="required">campo obrigatório</span>
+                
+            <textarea class="inputText message"  name="mensagem" id="mensagem" rows="1" placeholder="Mensagem*" required ></textarea>
+
+            <span class="required">campo obrigatório</span>
+
+            <span class="required-info">* campos obrigatórios</span>
+
+            <input class="submit" type="submit" value="Enviar">
+
+        </form>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+:root{
+    --cor-padrão: red;
+    --tamanho-de-fonte-padrãoverflow: 20px;
+}
+
+h2{ 
+    --cor-padrão: green;
+    color: var(--cor-padrão);
+    font-size: var(--tamanho-de-fonte-padrãoverflow);
+    background-color: var(--cor-padrão);
+}
+
+h3{
+    color: var(--cor-padrão);
+    font-size: var(--tamanho-de-fonte-padrãoverflow);
+}
+
+p {
+    color: var(--cor-padrão);
+    font-size: var(--tamanho-de-fonte-padrãoverflow);
+}
+
+span {
+    color: var(--cor-padrão);
+    font-size: var(--tamanho-de-fonte-padrãoverflow);
+}

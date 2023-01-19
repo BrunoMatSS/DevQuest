@@ -1,0 +1,116 @@
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background: url('../img/bg-repeat.jpg')center;
+    background-size: contain;
+
+}
+
+.container {
+    background: url('../img/bg-repeat.jpg')center center;
+    display: flex;
+    align-items: center;
+    width:800px;
+    height: 402px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
+
+.container .intro{
+    color: #fff;
+    padding: 50px;
+    padding-right: 20px;
+    width: 300px;
+}
+
+.container .intro h2{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 11px;
+}
+
+.container .intro p{
+    font-size: 15px;
+}
+
+.container .form{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 12px 50px;
+    padding: 20px;
+}
+
+.form .inputText {
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid;
+    padding: 9px;
+    max-width: 287px;
+    padding-right: 0;
+    border-radius: 5px;
+}
+
+::placeholder{
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.form .message{
+    resize: none;
+    padding: 9px;
+    border-radius: 5px;
+    padding-bottom: 59px;
+}
+
+.form .required{
+    visibility: hidden;
+    color: #F52E2E;
+    font-size: 8px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.form .required-info{
+    font-size: 15px;
+    margin-bottom: 11px;
+}
+
+
+.form .submit{
+    width: 298px;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #3CCC87;
+    border:none;
+}
+
+.form .submit:hover{
+    cursor: pointer;
+}
+
+.form .required.filled{
+    visibility: visible;
+}
+
+.form .inputText:not(focus):not(:placeholder-shown):invalid, .form .inputText.invalid{
+    border:1px solid #F52E2E;
+}
+
+
+.form .inputText:valid{
+    border: 1px solid #00C22B;
+}
+
+
+
+
+
+

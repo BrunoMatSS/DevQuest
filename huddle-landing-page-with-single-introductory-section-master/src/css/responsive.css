@@ -1,0 +1,31 @@
+@media (max-width: 375px){
+    html {
+        background: url(../images/bg-mobile.svg) hsl(257, 40%, 49%) center no-repeat;
+    }
+
+    .header {
+        padding: 30px;
+    }
+
+    .header a img{
+        width: 150px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container .access {
+        text-align: center;
+    }
+
+    .container .access h1 {
+        font-size: 26px;
+        padding-bottom: 15px;
+    }
+
+    .footer .social {
+        justify-content: center;
+        padding-top: 40px;
+    }
+}

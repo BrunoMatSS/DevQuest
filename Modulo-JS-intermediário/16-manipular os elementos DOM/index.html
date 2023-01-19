@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Manipulando DOM</title>
+	</head>
+	<body>
+		<h1>Posts do Twitter</h1>
+
+		<article class="post">
+			<p><strong>Bruno Mateus</strong><span>@BruninHD - 10 min</span></p>
+			<p>
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+				Aperiam soluta veritatis accusantium harum fugit? Quisquam quae
+				illo repellat vero quos expedita voluptatem, neque maiores quis,
+				ut dolorem nihil mollitia a.
+			</p>
+
+			<br />
+
+			<div class="comentarios">
+				<h3>comentarios</h3>
+
+				<input type="text" name="novo-comentario" placeholder="Digite o seu comentario"/>
+
+				<button onclick="adicionarComentario()">
+					Adicionar comentário
+				</button>
+
+				<br />
+
+				<div id="novos-comentarios"></div>
+			</div>
+		</article>
+
+		<script src="index.js"></script>
+	</body>
+</html>

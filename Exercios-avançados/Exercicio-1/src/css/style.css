@@ -1,0 +1,74 @@
+.cabecalho {
+    display: flex;
+    padding: 45px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;  
+}
+
+.logo h1{
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 5.5px;
+}
+
+
+.menu{
+    display: flex; 
+    align-items: center;
+    font-size: 15px;
+}
+
+.menu li a{ 
+    padding: 11px 6px;
+    transition: 0.3s ease-in-out;
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.menu li a:hover {
+    background-color: #5BC241;
+    color: white;
+}
+
+.menu li a.cad {
+    background-color: #5BC241;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 15px;
+    transition: 0.3s ease-in;
+    font-weight: 300;
+    
+}
+.menu .cad:hover {
+    background-color: cyan;
+    color: white;
+}
+/* .cabecalho .cadastre-se {
+    padding: 0;
+    background-color: #5BC241;
+    border-radius: 10px;
+} */
+/* .cabecalho .sobre .sob{
+    color: white;
+    display: inline-block;
+    padding: 11px 6px;
+} */
+
+/* .cabecalho .sobre {
+    background-color:#5BC241;
+    padding: 0;
+    margin-right: 30px;
+} */
+
+
+
+
+

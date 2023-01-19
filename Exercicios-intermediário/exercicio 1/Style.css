@@ -1,0 +1,106 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.card {
+    background-size: 1920px 1080px;
+    display: none;
+    align-items: center;
+    height: 100vh;
+}
+
+.card .content {    
+    background-color: #fff;
+    margin-left:180px ;
+    width: 620px;
+    min-height: 700px;
+    border-radius: 10px;
+}
+
+.card div h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin: 65px 60px 0;
+}
+
+.card div p{
+    font-size: 25px;
+    font-weight: 300;
+    margin: 80px 60px 50px;
+    line-height: 35px;
+}
+
+.card div a{
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 60px;
+}
+
+#cerejeira {
+    background: url('./img/zed.jpg')  no-repeat;
+    background-size: cover;    
+}
+#cerejeira a {
+    color: #C50000;
+}
+
+#flores {
+    background: url('./img/leesin.jpg')  no-repeat;
+    background-size: cover;
+}
+
+#flores a{
+    color:#D9DD10
+}
+
+#porDoSol {
+    background: url('./img/yasuo.jpg')  no-repeat;
+    background-size: cover;
+}
+
+#porDoSol a{
+    color: #A63A17;
+}
+
+#lago {
+    background: url('./img/graves.jpg')  no-repeat;
+    background-size: cover;
+}
+
+#lago a {
+    color: #10ACDD;
+}
+
+.seta{
+    position: absolute; 
+    cursor: pointer;  
+}
+
+.seta.esquerda { 
+    left: 90px;
+    transform: scaleX(-1) translateX(50%);
+}
+
+.seta.direita {
+    right: 90px;
+    transform: translateX(50%);
+}
+
+.card.ativo {
+    display: flex; 
+}
+
+.desativa {
+    opacity: 50%;
+    cursor: default;
+}
+
+

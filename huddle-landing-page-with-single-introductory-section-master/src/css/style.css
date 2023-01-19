@@ -1,0 +1,64 @@
+html{
+    max-width: 1440px;
+    margin: auto;
+    background: url(../images/bg-desktop.svg) hsl(257, 40%, 49%)  center no-repeat;
+    font-family:'Open Sans', sans-serif;
+}
+
+.heading{
+    font-family: 'Poppins', sans-serif;;
+}
+.header {
+    padding: 40px 70px;
+}
+
+.header a img{
+    width: 200px;
+}
+.container {
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+    justify-content: center;  
+}
+
+.container .access {
+    max-width: 473px;
+    color: white;
+    padding-top: 40px;
+}
+
+.container .access h1 {
+    font-size: 35px;
+    padding-bottom: 35px;
+}
+
+.container .access p {
+    font-size: 16px;
+    padding-bottom: 35px;
+}
+
+.container .access a {
+    color: hsl(257, 40%, 49%);
+    font-size: 16px;
+    padding: 15px 65px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;;
+}
+
+.container .access a:hover {
+    color: white;
+    background-color: hsl(300, 69%, 71%);
+}
+
+.footer .social {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    padding: 20px 70px;
+}
+
+.footer .social a:hover {
+    color: hsl(300, 69%, 71%);
+}
